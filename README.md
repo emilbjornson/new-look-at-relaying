@@ -8,6 +8,11 @@ Emil Björnson, Michail Matthaiou, Mérouane Debbah, “[A New Look at Dual-Hop 
 The package contains a simulation environment, based on Matlab, that reproduces all the numerical results and figures in the article. *We encourage you to also perform reproducible research!*
 
 
+The code can also generate Figure 2 in the conference paper:
+
+Emil Björnson, Agisilaos Papadogiannis, Michail Matthaiou, Mérouane Debbah, “[On the impact of transceiver impairments on AF relaying](http://www.flexible-radio.com/sites/default/files/publications/387/bjornsonICASSP2013.pdf),” Proceedings of IEEE Conference on Acoustics, Speech, and Signal Processing (ICASSP), Vancouver, Canada, May 2013.
+
+
 ##Abstract of Article
 
 Physical transceivers have hardware impairments that create distortions which degrade the performance of communication systems. The vast majority of technical contributions in the area of relaying neglect hardware impairments and, thus, assumes ideal hardware. Such approximations make sense in low-rate systems, but can lead to very misleading results when analyzing future high-rate systems. This paper quantifies the impact of hardware impairments on dual-hop relaying, for both amplify-and-forward and decode-and-forward protocols. The outage probability (OP) in these practical scenarios is a function of the effective end-to-end signal-to-noise-and-distortion ratio (SNDR). This paper derives new closed-form expressions for the exact and asymptotic OPs, accounting for hardware impairments at the source, relay, and destination. A similar analysis for the ergodic capacity is also pursued, resulting in new upper bounds. We assume that both hops are subject to independent but non-identically distributed Nakagami-m fading. This paper validates that the performance loss is small at low rates, but otherwise can be very substantial. In particular, it is proved that for high signal-to-noise ratio (SNR), the end-to-end SNDR converges to a deterministic constant, coined the SNDR ceiling, which is inversely proportional to the level of impairments. This stands in contrast to the ideal hardware case in which the end-to-end SNDR grows without bound in the high-SNR regime. Finally, we provide fundamental design guidelines for selecting hardware that satisfies the requirements of a practical relaying system.
